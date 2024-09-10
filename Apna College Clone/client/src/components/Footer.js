@@ -3,7 +3,7 @@ import img1 from "../assets/1.png";
 
 function Footer() {
   return (
-    <div className="bg-white space-y-5">
+    <div className="bg-white space-y-5 pt-10">
       <div className="flex justify-between px-28 py-5">
         <div className="flex flex-col gap-5 w-2/12">
           <img

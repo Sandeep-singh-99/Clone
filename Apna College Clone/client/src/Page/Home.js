@@ -4,6 +4,11 @@ import Typewriter from "typewriter-effect";
 import img2 from "../assets/2.png";
 import Container from "../components/Container";
 import Batch from "../components/Batch";
+import CompanySection from "../components/CompanySection";
+import Selected from "../components/Selected";
+import PSection from "../components/PSection";
+import Community from "../components/Community";
+
 function Home() {
   return (
     <>
@@ -48,6 +53,11 @@ function Home() {
 
       <Container/>
       <Batch/>
+      <CompanySection/>
+      <hr className="border border-black"/>
+      <Selected/>
+      <PSection/>
+      <Community/>
     </>
   );
 }
